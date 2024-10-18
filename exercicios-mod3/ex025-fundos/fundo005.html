@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundo Fixo de Tela</title>
+    <style>
+        body {
+            height: 100vh;
+            background-color: black;  
+            background-image: url(imagens/wallpaper002.jpg); 
+            background-position: center center;
+            background-repeat: repeat-y; /*vertical*/
+            background-size: cover; /*coloca a imagem completa na tela, mesmo que corte um pouco (ideal para fundo de site)*/
+            background-attachment: fixed;
+        
+
+            /*shorthand (menos o SIZE)*/
+
+            background: black url(imagens/wallpaper002.jpg) center center repeat-y fixed;
+            background-size: cover; /*imagens que se ajustam para cobrir todo o tamanho da caixa*/
+        }
+
+        main {
+            background-color: #ffffff;
+            max-width: 400px;
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 10px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste de Imagem de Fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, ad. Animi accusamus nobis vero odio. Quam veritatis, dicta necessitatibus natus doloribus cumque consequuntur velit, neque eius dolore cupiditate minima aliquid?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, nobis dolorum. Natus iusto atque molestiae quis provident repellendus pariatur dicta cum a aliquam voluptates delectus facere quo, similique quasi architecto.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, ad. Animi accusamus nobis vero odio. Quam veritatis, dicta necessitatibus natus doloribus cumque consequuntur velit, neque eius dolore cupiditate minima aliquid?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, nobis dolorum. Natus iusto atque molestiae quis provident repellendus pariatur dicta cum a aliquam voluptates delectus facere quo, similique quasi architecto.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, ad. Animi accusamus nobis vero odio. Quam veritatis, dicta necessitatibus natus doloribus cumque consequuntur velit, neque eius dolore cupiditate minima aliquid?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, nobis dolorum. Natus iusto atque molestiae quis provident repellendus pariatur dicta cum a aliquam voluptates delectus facere quo, similique quasi architecto.</p>
+    </main>
+</body>
+</html>
